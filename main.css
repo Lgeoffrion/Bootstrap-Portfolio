@@ -1,20 +1,32 @@
-body{
-    background: url(images/circles-dark.png);
+/* 
+font-family: 'Passion One', cursive;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Audiowide', cursive; 
+*/
 
+
+
+body{
+	background: url(images/ai-codes-coding-97077.jpg);
+	background-size: auto;
+	font-family: 'Playfair Display SC', serif;
 }
 
+.header{
+    border-bottom: 2px;
+	border-color: rgb(255, 255, 255);
+}
+
+
 .container{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.80);
     margin-top: 20px;
     margin-bottom: 50px;
     padding-bottom: 15px;
 
 }
 
-.header{
-    border-bottom: 2px;
-    border-color: rgb(255, 255, 255);
-}
+
 
 hr {
     border: 2px;
@@ -27,27 +39,33 @@ hr {
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff;
-    background-color: #50787e;
+    background-color: #2e159b;
 }
 
 .btn{
-    background-color: #50787e;
-    border: #50787e;
+    background-color: #2e159b;
+    border: #2e159b;
 }
 
 .footer{
     border-top: 5px;
     border-color: grey;
-    background-color: #50787e;
+    background-color: #2e159b;
 
 }
 
 .navbar-text{
-    font-size: 8px;
+	font-size: 8px;
 }
 
+
 #photome{
-    padding-bottom: 5px;
+	padding-bottom: 5px;
+	
+}
+
+#photoMeText{
+	font-family: 'Passion One', cursive;
 }
 
 .bio{
@@ -56,7 +74,8 @@ hr {
 
 .headerTitle{
     border-bottom: solid 2px gray;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	
 }
 
 .hvrbox,
@@ -118,4 +137,10 @@ hr {
 }
 .hvrbox.active .hvrbox-text_mobile {
 	display: block;
+}
+
+.portfolioButtons{
+	color: white;
+	margin-bottom: 10px;
+	justify-content: center;
 }
